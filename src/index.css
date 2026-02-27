@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #fafaf9;
+    color: #1a1a2e;
+    font-family: 'DM Sans', sans-serif;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    line-height: 1.1;
+  }
+
+  .article-body {
+    font-family: 'DM Sans', sans-serif;
+    line-height: 1.75;
+    font-size: 1.0625rem;
+  }
+
+  .article-body p {
+    margin-bottom: 1.5rem;
+  }
+
+  .article-body h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 1.875rem;
+    margin-bottom: 1rem;
+    margin-top: 2.5rem;
+  }
+
+  @media (min-width: 768px) {
+    .article-body h2 {
+      font-size: 2.25rem;
+    }
+  }
+
+  .article-body h3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 0.75rem;
+    margin-top: 2rem;
+  }
+
+  @media (min-width: 768px) {
+    .article-body h3 {
+      font-size: 1.875rem;
+    }
+  }
+
+  .article-body ul {
+    margin-bottom: 1.5rem;
+    margin-left: 1.5rem;
+    list-style-type: disc;
+  }
+
+  .article-body ul li {
+    padding-left: 0.5rem;
+    margin-top: 0.5rem;
+  }
+}
+
+@layer utilities {
+  .fade-in {
+    animation: fadeIn 0.4s ease-out;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(8px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .hard-rule {
+    border-top: 2px solid currentColor;
+  }
+
+  .vertical-rule {
+    border-left: 2px solid currentColor;
+  }
+}

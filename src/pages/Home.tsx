@@ -52,7 +52,7 @@ export default function Home() {
               </h1>
 
               <p className="text-lg text-warm-gray leading-relaxed max-w-md">
-                Field insights and regulatory analysis from 20+ years in Canadian manufacturing safety
+                Field insights and regulatory analysis from the front lines of Canadian manufacturing safety
               </p>
 
               {/* Decorative horizontal rule */}
@@ -183,13 +183,13 @@ export default function Home() {
             <h2 className="font-serif text-3xl md:text-4xl font-bold text-ink mb-6">About Collette</h2>
             <div className="space-y-4 text-ink leading-relaxed">
               <p>
-                Collette Leroux is a Senior Health & Safety Manager for a Canadian manufacturing firm with over 20 years of experience in industrial health and safety.
+                Collette Leroux is the Health & Safety Manager at Space Aid Manufacturing, where she built the company's entire health and safety program from the ground up — writing all policies, establishing the compliance framework, and managing safety oversight for a plant of 150 workers.
               </p>
               <p>
                 She specializes in regulatory compliance (Ontario OHSA), risk management, hazard assessment, and building genuine safety culture on the shop floor — the kind that actually changes how people behave, not just what's posted on the wall.
               </p>
               <p>
-                She has navigated Ministry of Labour audits, led complex incident investigations, and built safety programs from the ground up. Outside work, she is a proud mom of two boys, stays active through yoga and barre classes, and recharges with friends and family.
+                Outside work, she is a proud mom of two boys, stays active through yoga and barre classes, and recharges with friends and family.
               </p>
             </div>
             <div className="mt-8">
